@@ -73,68 +73,69 @@ def generate_strong_password(length=12):
 st.markdown(
     """
     <style>
-        html, body, .stApp {
-            color: black!important;
-            background-color:  #FFFACD !important;
-        }
+    html, body, .stApp {
+        color: black !important;
+        background-color: #FFB6C1 !important; /* Light Pink */
+    }
 
-        .stTextInput input {
-            font-size: 18px !important;
-            padding: 12px !important;
-            border-radius: 10px !important;
-            border: 2px solid #5d1049 !important;
-            background-color:  #FFFACD !important;
-            color: black !important;
-            text-align: center;
-            box-shadow: 0px 0px 10px rgba(93, 16, 73, 0.3);
-        }
+    .stTextInput input {
+        font-size: 18px !important;
+        padding: 12px !important;
+        border-radius: 10px !important;
+        border: 2px solid #5d1049 !important;
+        background-color: white !important;
+        color: black !important;
+        text-align: center;
+        box-shadow: 0px 0px 10px rgba(93, 16, 73, 0.3);
+    }
 
-        .stButton button {
-            font-size: 18px !important;
-            padding: 12px !important;
-            border-radius: 10px !important;
-            background: linear-gradient(to right, #720d5d, #5d1049);
-            color: pink !important;
-            font-weight: bold;
-            border: none;
-            transition: 0.3s;
-            box-shadow: 0px 5px 15px rgba(114, 13, 93, 0.6);
-        }
+    .stButton button {
+        font-size: 18px !important;
+        padding: 12px !important;
+        border-radius: 10px !important;
+        background: linear-gradient(to right, #720d5d, #5d1049);
+        color: white !important;
+        font-weight: bold;
+        border: none;
+        transition: 0.3s;
+        box-shadow: 0px 5px 15px rgba(114, 13, 93, 0.6);
+    }
 
-        .stButton button:hover {
-            background: linear-gradient(to right, #5d1049, #720d5d);
-            transform: scale(1.05);
-            box-shadow: 0px 5px 20px rgba(114, 13, 93, 0.6);
-        }
+    .stButton button:hover {
+        background: linear-gradient(to right, #5d1049, #720d5d);
+        transform: scale(1.05);
+        box-shadow: 0px 5px 20px rgba(114, 13, 93, 0.6);
+    }
 
-        .navbar {
-            background: linear-gradient(to right, #720d5d, #5d1049);
-            padding: 15px;
-            border-radius: 10px;
-            text-align: center;
-            font-size: 20px;
-            font-weight: bold;
-            color:  #FFFACD;
-            margin-bottom: 30px;
-            box-shadow: 0px 5px 15px rgba(114, 13, 93, 0.5);
-        }
+    .navbar {
+        background: linear-gradient(to right, #720d5d, #5d1049);
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: white !important;
+        margin-bottom: 30px;
+        box-shadow: 0px 5px 15px rgba(114, 13, 93, 0.5);
+    }
 
-        /* Sidebar styling */
-        section[data-testid="stSidebar"] {
-            background-color: #FFFACD !important;
-            color: black !important;
-            border-right: 2px solid #5d1049;
-        }
+    /* Sidebar styling */
+    section[data-testid="stSidebar"] {
+        background-color: #FFB6C1 !important;
+        color: black !important;
+        border-right: 2px solid #5d1049;
+    }
 
-        h3 {
-            color: #5d1049 !important;
-        }
+    h3 {
+        color: #5d1049 !important;
+    }
 
-        .stMarkdown h3 {
-            font-weight: bold !important;
-            font-size: 22px !important;
-        }
-    </style>
+    .stMarkdown h3 {
+        font-weight: bold !important;
+        font-size: 22px !important;
+    }
+</style>
+
     """,
     unsafe_allow_html=True
 )
