@@ -75,7 +75,7 @@ st.markdown(
     <style>
     html, body, .stApp {
         color: black !important;
-        background-color: #FFB6C1 !important; /* Light Pink */
+        background-color: Light pink !important;
     }
 
     .stTextInput input {
@@ -94,7 +94,7 @@ st.markdown(
         padding: 12px !important;
         border-radius: 10px !important;
         background: linear-gradient(to right, #720d5d, #5d1049);
-        color: white !important;
+        color: purple !important;
         font-weight: bold;
         border: none;
         transition: 0.3s;
@@ -114,7 +114,7 @@ st.markdown(
         text-align: center;
         font-size: 20px;
         font-weight: bold;
-        color: white !important;
+        color: purple !important;
         margin-bottom: 30px;
         box-shadow: 0px 5px 15px rgba(114, 13, 93, 0.5);
     }
