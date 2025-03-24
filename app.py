@@ -180,3 +180,4 @@ if page == "Password Strength Checker":
 elif page == "Password Generator":
     password_generator_page()
 
+
