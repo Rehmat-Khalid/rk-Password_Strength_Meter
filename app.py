@@ -75,7 +75,7 @@ st.markdown(
     <style>
     html, body, .stApp {
         color: black !important;
-        background-color: Light pink !important;
+        background-color: #FFB6C1 !important; /* Light Pink */
     }
 
     .stTextInput input {
@@ -94,7 +94,7 @@ st.markdown(
         padding: 12px !important;
         border-radius: 10px !important;
         background: linear-gradient(to right, #720d5d, #5d1049);
-        color: purple !important;
+        color: white !important;
         font-weight: bold;
         border: none;
         transition: 0.3s;
@@ -114,7 +114,7 @@ st.markdown(
         text-align: center;
         font-size: 20px;
         font-weight: bold;
-        color: purple !important;
+        color: white !important;
         margin-bottom: 30px;
         box-shadow: 0px 5px 15px rgba(114, 13, 93, 0.5);
     }
@@ -181,3 +181,5 @@ elif page == "Password Generator":
     password_generator_page()
 
 
+
+    
